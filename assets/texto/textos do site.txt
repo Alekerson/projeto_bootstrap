@@ -10,3 +10,19 @@ Título: Especialista em Estratégias de Conteúdo, Com sua paixão e expertise 
 Perfil 3
 Nome: Fernando Santos
 Título: Especialista em Engajamento do Público, possui uma ampla experiência em criar conteúdo envolvente e interativo, que captura a atenção do público-alvo e incentiva a participação ativa
+
+**** BLOCOS ****
+Bloco 1
+Título:Palestrantes Inspiradores.
+Subtítulo: Inscreva-se agora e aprenda com os melhores!
+Texto: Descubra as mentes brilhantes que irão transformar sua visão sobre marketing de mídias sociais.
+
+Bloco 2
+Título:Conhecimentos Estratégicos em Destaque.
+Subtítulo: Domine as principais táticas de mídias sociais para impulsionar seu negócio!
+Texto: Descubra as estratégias comprovadas que irão aumentar sua presença online e alcançar o sucesso desejado.
+
+Bloco 3
+Título:Networking e Oportunidades de Negócios.
+Subtítulo: Conecte-se com os líderes da indústria e amplie sua rede de contatos!
+Texto: Faça parte de um evento exclusivo que oferece oportunidades únicas para conhecer e interagir com profissionais influentes.
