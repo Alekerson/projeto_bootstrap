@@ -1,12 +1,10 @@
-.bloco{
-    background-color: #ccc;
-    height: 50vh;
-}
-
+/* PAGINA HOME */
+.bloco{background-color: #ccc; height: 50vh;}
 .bloco img{min-width: 800px;}
-
 .w-200{width: 200px;}
 .w-500{width: 500px;}
-
-
 .social a i:hover{color: #0d6efd; transform: scale(1.2);}
+
+/* EFEITO MENU ATIVO */
+
+.active{border-bottom: 1px solid #fff;}
