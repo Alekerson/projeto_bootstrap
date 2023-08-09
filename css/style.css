@@ -14,3 +14,5 @@
 .altura{height: 300px; overflow-y:scroll;}
 
 .remove{ resize: none;}
+
+.fonte{ font-family: 'Borel', cursive;}
