@@ -112,6 +112,59 @@ let btnEscolaridade = document.querySelector("#btnEscolaridade")
 btnEscolaridade.addEventListener("click", (evento)=>{
     console.log(evento)
     evento.preventDefault()//Esta função irá impedir o comportamento padrão de botão
+    
+    for(let itens of escolaridade){
+        if(itens.checked){
+            console.log(`Sua escolaridade é ${itens.value}`)//Forma de concatenar frase com variavel
+            // let opcao = confirm("Tem Certeza?")
+            // console.log(opcao)
+        }}
+})
 
-    console.log(escolaridade[1])
+//*********** TRABALHANDO COM EXIBIR TERMOS DE CONTRATO ***************
+let escolha = document.querySelector("#escolha")
+let contrato = document.querySelector("#contrato")
+
+contrato.classList.add("class", "d-none")
+escolha.addEventListener("change", ()=>{//change é escutar a mudança que ocorrer no elemento no caso de marcado ou desmacardo
+    if(escolha.checked){
+        contrato.classList.remove("d-none")
+        contrato.classList.add("d-block")
+    }
+    else{
+        contrato.classList.remove("d-block")
+        contrato.classList.add("d-none")
+    }
+})
+
+
+// ***********TRABALHANDO COM A ACEITAÇÃO DO TERMO DE CONTRATO**********
+let concordo = document.querySelector("#concordo")
+concordo.addEventListener("change", () => {
+    if(concordo.checked){
+        alert("Parabéns")
+    }
+    else{
+        let mensagem = prompt("Diga porque você desmacou: ")}//Cria uma caixa de texto
+})
+
+//**********************TRABALHANDO COM SELECT ****************************/
+
+let trabalho = document.querySelector("select[name=trabalho]")
+trabalho.addEventListener("change", () => {
+    for(let itens of trabalho){
+        if(itens.selected){
+            // console.log(itens.value)
+            if(itens.value == "RH"){
+                trabalho.style.backgroundColor = "cyan"
+                trabalho.style.color = "black"
+            }
+            if(itens.valeu = "Tecnologia"){
+                trabalho.style.backgroundColor = "blue"
+                trabalho.style.color = "white"
+            }
+            if(itens.value == "Financeiro"){
+                trabalho.style.backgroundColor = "black"
+                trabalho.style.color = "white"
+            }}}
 })
