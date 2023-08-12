@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ******************** LINKS ******************** -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Evento anual de marketing</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-dark sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Marketing Mundial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Lista de Usuários</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <main class="container bg-light">
+    <h1 class="text-center my-5">Lista de Usuários com API </h1>
+    <table class="table my-5">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Ocupação</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+
+      <tbody id="tabela">
+       
+      </tbody>
+    </table>
+  </main>
+
+  <footer class="container-fluid bg-dark text-white mt-4 pt-3">
+    <section class="row d-flex justify-content-between">
+
+      <div class="col-md-8 ">
+        <p class="ms-5">&copy;2023 Marketing Mundial |<a href=""> Privacidade</a>| <a href="#"> Políticas</a> </p>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-around fs-5 social">
+
+        <!-- ÍCONES REDES SOCIAIS -->
+        <a href="#" class="text-white"> <i class="fa-brands fa-youtube"></i></a>
+
+        <a href="#" class="text-white"> <i class="fa-brands fa-twitter"></i></a>
+
+        <a href="#" class="text-white"> <i class="fa-brands fa-instagram"></i></a>
+
+        <a href="#" class="text-white"> <i class="fa-brands fa-tiktok"></i></a>
+
+        <a href="#" class="text-white"> <i class="fa-brands fa-facebook"></i></a>
+
+        <a href="#" class="text-white"> <i class="fa-brands fa-google-play"></i></a>
+
+        <a href="#" class="text-white"> <i class="fa-brands fa-app-store-ios"></i></a>
+      </div>
+
+    </section>
+  </footer>
+
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/api.js"></script>
+</body>
+
+</html>
